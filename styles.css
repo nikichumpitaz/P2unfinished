@@ -1,0 +1,104 @@
+body {
+    background-color: #118AB2;
+    background-size: cover;
+}
+
+.container {
+    width: 75vw;
+    height: 65vh;
+    margin-left: 20vh;
+    margin-top: 20vh;
+    background-color: #FFD166;
+    border-radius: 12px;
+}
+
+.keys img {
+    width: 160px;
+    height: 130px;
+    position: relative;
+    left: 820px;
+    bottom: 85px;
+}
+
+
+h1 {
+    margin-left: 0 auto;
+    margin-top: 25px;
+    padding-top: 5px;
+    
+    text-align: center;
+    color: #EF476F;
+    font-size: 45px;
+    font-family:  'Carter One', cursive;
+    text-decoration: #118AB2;
+    -webkit-text-stroke: 0.1px #EF476F;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f5ec9c, 0 0 30px  #f5ec9c, 0 0 40px #f5ec9c, 0 0 50px  #f5ec9c, 0 0 60px  #f5ec9c;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 20px #ffe655, 0 0 30px #ffe655, 0 0 40px #ffe655, 0 0 50px #ffe655, 0 0 60px #ffe655, 0 0 70px #ffe655;
+    }
+  }
+
+
+.how p {
+    padding: 0px 130px;
+    font-family: 'Indie Flower', cursive;;
+    color: #073B4C;
+    font-size: 35px;
+}
+
+.how {
+    position: relative;
+    top: 0px;
+}
+
+.info p {
+    padding: 0px 130px;
+    font-family: 'Indie Flower', cursive;;
+    color: #073B4C;
+    font-size: 25px;
+}
+
+.info {
+    position: relative;
+    bottom: 165px;
+}
+
+
+
+.gtg {
+    
+        background-color: rgb(250, 219, 219); 
+        border: 2px solid darkgrey;
+        border-radius: 12px; 
+        margin: 0 auto;
+        margin-left: 38%;
+        cursor: pointer; 
+        width: 15%; 
+
+        color: #ff5500; 
+        font-family: 'Indie Flower', cursive;;
+        letter-spacing: 4px;
+        padding: 30px 30px; 
+        text-align: center; 
+        display: inline-block; 
+        font-size: 27px; 
+        text-decoration:none;
+        
+        position: relative;
+        bottom: 115px;
+
+    
+}
+
+.gtg:hover {
+    background-color: rgb(248, 242, 221);
+}
